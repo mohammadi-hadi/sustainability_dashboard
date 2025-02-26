@@ -1,0 +1,25 @@
+name: sane-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - hdbscan
+  - langdetect
+  - matplotlib
+  - nltk
+  - numpy
+  - pandas
+  - panel
+  - param
+  - plotly
+  - python=3.8.18
+  - scikit-learn
+  - seaborn
+  - sentence-transformers
+  - spacy
+  - textblob
+  - transformers
+  - umap-learn
+  - unidecode
+  - wordcloud
+prefix: /opt/anaconda3/envs/sane-env
