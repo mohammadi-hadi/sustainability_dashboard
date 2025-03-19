@@ -3,6 +3,8 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.8.18
+  - jupyterlab
   - hdbscan
   - langdetect
   - matplotlib
@@ -12,7 +14,6 @@ dependencies:
   - panel
   - param
   - plotly
-  - python=3.8.18
   - scikit-learn
   - seaborn
   - sentence-transformers
